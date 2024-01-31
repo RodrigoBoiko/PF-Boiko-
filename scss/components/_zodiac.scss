@@ -1,0 +1,75 @@
+.main_background {
+	color: $color_4;
+}
+#text_zodiac {
+	padding: 0em 10em;
+	text-align: center;
+	h1 {
+		font-family: $font-family_3;
+	}
+	h3 {
+		font-size: 1em;
+	}
+}
+#zodiac_cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 25em 25em 25em 25em;
+	div {
+		padding: 2em;
+		transition: 0.6s;
+		background-position: right top;
+		background-size: 20%;
+		background-repeat: no-repeat;
+		&:hover {
+			border: 1px solid black;
+			padding: 1em 2em;
+			background-position: 95% 10%;
+			h2 {
+				transform: rotate(-10deg) translate(2vw, -3vw) scale(1.2);
+			}
+		}
+	}
+	h2 {
+		font-family: $font-family_4;
+		font-size: 2em;
+		transform: rotate(-5deg);
+		transition: 1s;
+	}
+}
+#aries {
+	background: url(../img/aries.png);
+}
+#tauro {
+	background: url(../img/taurus.png);
+}
+#geminis {
+	background: url(../img/gemini.png);
+}
+#cancer {
+	background: url(../img/cancer.png);
+}
+#leo {
+	background: url(../img/leo.png);
+}
+#virgo {
+	background: url(../img/virgo.png);
+}
+#libra {
+	background: url(../img/libra.png);
+}
+#escorpio {
+	background: url(../img/scorpio.png);
+}
+#sagitario {
+	background: url(../img/sagitarius.png);
+}
+#capricornio {
+	background: url(../img/capricorn.png);
+}
+#acuario {
+	background: url(../img/aquarius.png);
+}
+#piscis {
+	background: url(../img/pisces.png);
+}

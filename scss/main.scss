@@ -1,0 +1,18 @@
+﻿/*abstracts*/
+@import './abstracts/variables';
+/*base*/
+@import './base/reset';
+@import './base/base';
+/*layout*/
+@import './layout/header';
+@import './layout/about';
+@import './layout/footer';
+@import './layout/mediaquerie';
+/*components*/
+@import './components/tarot';
+@import './components/zodiac';
+@import './components/knowledge';
+@import './components/price';
+@import './components/testimony';
+@import './components/box';
+@import './components/form';
