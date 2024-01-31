@@ -49,7 +49,7 @@
 
         <section class="hero__container container">
             <h1 class="hero__title"><img src="../img/Logo_Saturno.png" alt=""></h1>
-            <p class="hero__paragraph">Me presento</p>
+            <p class="hero__paragraph">¿Quién soy yo?</p>
             
         </section>
 
@@ -58,17 +58,34 @@
 
     </header>
 <main> 
-    <section  class="testimony__body testimony__body--show" data-id="1">
-            <div class="testimony__texts">
-                <h2 class="subtitle">Mi nombre es Rodrigo Ezequiel Boiko, <span class="testimony__course">Soy un apasionado por la astrología</span></h2>
-                <p class="testimony__review">¡Hola! Me alegra saber que eres una apasionada de la astrología. La astrología es el estudio de la posición y los movimientos de los astros y su influencia en las personas y los acontecimientos del mundo, En la astrología occidental, se utilizan doce signos zodiacales: Aries, Tauro, Géminis, Cáncer, Leo, Virgo, Libra, Escorpio, Sagitario, Capricornio, Acuario y Piscis,  Cada signo zodiacal se asocia con diferentes constelaciones y se cree que influye en la personalidad y el destino de las personas, asi es como apasiona descubrir como son las personas que me rodean, gente que conozco, y sobre todo saber la compatibilidad que tengo con mis seres queridos</p>
-            </div>
-</main>
-            <figure class="testimony__picture">
-                <img src="../img/rodrigo.jpg" class="testimony__img">
-            </figure>
-        </section>
+    <section class="testimony">
+            <div class="testimony__container container">
+                <section  class="testimony__body testimony__body--show" data-id="1">
+                   <div class="testimony__texts">
+                     <h2 class="subtitle">Mi nombre es Rodrigo Ezequiel Boiko, <span class="testimony__course">Soy un apasionado por la astrología</span></h2>
+                      <p>¡Hola! Me alegra saber que eres una persona apasionada de la astrología. La astrología es el estudio de la posición y los movimientos de los astros y su influencia en las personas y los acontecimientos del mundo, En la astrología occidental, se utilizan doce signos zodiacales: Aries, Tauro, Géminis, Cáncer, Leo, Virgo, Libra, Escorpio, Sagitario, Capricornio, Acuario y Piscis,  Cada signo zodiacal se asocia con diferentes constelaciones y se cree que influye en la personalidad y el destino de las personas, asi es como apasiona descubrir como son las personas que me rodean, gente que conozco, y sobre todo saber la compatibilidad que tengo con mis seres queridos</p>
+                    </div>
 
+                 <figure class="testimony__picture">
+                   <img src="../img/rodrigo.jpg" class="testimony__img">
+                 </figure>
+                </section>
+            </div>
+    <section class="text_box">
+        <h1 class="subtitle">¿Qué hago?</h1>
+            <p>Estoy aprendiendo a crear páginas web con HTML, CSS y JavaScript. <br> También estoy usando Bootstrap para hacer que mi sitio web se vea bien en diferentes dispositivos. <br> Además, estoy usando Git para colaborar con otros desarrolladores y rastrear los cambios en mi código.</p>
+    </section>
+    <section class="box">
+    
+        <div class="boxbox">
+         <div class="box box-1" style="--img: url(../img/html.png);" data-text="HTML"></div>
+            <div class="box box-2" style="--img: url(../img/CSS.png);" data-text="CSS"></div>
+            <div class="box box-3" style="--img: url(../img/JS.png);" data-text="JS"></div>
+            <div class="box box-4" style="--img: url(../img/bootstrap.png);" data-text="BOOSTRAP"></div>
+            <div class="box box-5" style="--img: url(../img/git.png);" data-text="GIT"></div>
+        </div>
+    <section>
+</main>
     <footer class="footer">
         <section class="footer__container container">
             <nav class="nav nav--footer">
@@ -82,7 +99,45 @@
 
             
         </section>
-
+        <div class="container-form">
+            <h1>Contactame</h1>
+            <div class="form">
+              <form>
+                <input
+                  class="form-control"
+                  type="text"
+                  id="name"
+                  aria-label="Nombre"
+                  placeholder="Tu Nombre *"
+                  required
+                />
+                <input
+                  class="form-control"
+                  type="email"
+                  id="mail"
+                  aria-label="Email"
+                  placeholder="Tu Email *"
+                  required
+                />
+                <input
+                  class="form-control"
+                  type="tel"
+                  id="tel"
+                  aria-label="Numero de Celular"
+                  placeholder="Tu Numero *"
+                  required
+                />
+                <textarea
+                  class="message form-control"
+                  id="msg"
+                  aria-label="Mensaje"
+                  placeholder="Tu mensaje *"
+                  required
+                ></textarea>
+                <button type="submit" class="btn  form-control">ENVIAR</button>
+              </form>
+            </div>
+          </div>
         <section class="footer__copy container">
             <div class="footer__social">
                 <a href="#" class="footer__icons"><img src="../img/facebook.svg" class="footer__img"></a>
