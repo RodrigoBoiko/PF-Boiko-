@@ -71,19 +71,6 @@ body {
     text-decoration: none;
 }
 
-.navbar {
-    --padding-container: 0;
-    height: 100%;
-    display: flex;
-    align-items: center;
-}
-
-.navbar ul li {
-    list-style: none;
-    display: inline-block;
-    margin: 10 20px;
-    padding: 20px;
-}
 
 /* Hero container */
 
@@ -188,6 +175,7 @@ footer{
     width: 100%;
     display: block;
 }
+
 
 /* price */
 
