@@ -1,0 +1,14 @@
+@mixin medidasv ($visual, $posicion){
+    display: $visual;
+    position: $posicion;
+}
+
+@mixin medidas-altura ($ancho, $alto){
+    width: $ancho;
+    height: $alto;
+}
+
+@mixin medidas-elemento ($contenido, $elemento){
+    justify-content: $contenido;
+    align-items: $elemento;
+}

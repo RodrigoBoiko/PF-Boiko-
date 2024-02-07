@@ -6,12 +6,10 @@
 	padding: var(--padding-container);
 }
 .hero {
-	width: 100%;
-	height: 100vh;
+	@include medidas-altura(100%, 100vh);
+	@include medidasv (grid, relative);
 	min-height: 150px;
 	max-height: 900px;
-	position: relative;
-	display: grid;
 	grid-template-rows: 100px 1fr;
 	color: $color_1;
 	&::before {
@@ -23,8 +21,6 @@
 		height: 100%;
 		background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url(../img/escritura-astral.jpeg);
 		background-size: cover;
-		clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 95%, 0 80%);
-		z-index: -1;
 	}
 }
 .hero_menu {

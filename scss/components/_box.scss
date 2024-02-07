@@ -1,10 +1,9 @@
 .boxbox {
-	position: relative;
-	display: grid;
+	@include medidasv(grid, relative);
+	@include medidas-altura(800px, 300px);
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 	gap: 1em;
-	width: 800px;
-	height: 300px;
+	
 	transition: all 400ms;
 	&:hover {
 		.box {
@@ -39,14 +38,12 @@
 	margin-right: 25px;
 }
 .box {
-	position: relative;
+	@include medidasv(flex, relative);
+	@include medidas-elemento(center, center);
 	background: var(--img) center center;
 	background-size: cover;
 	transition: all 400ms;
-	display: flex;
 	padding: 50px;
-	justify-content: center;
-	align-items: center;
 	&:nth-child(odd) {
 		transform: translateY(-8px);
 	}

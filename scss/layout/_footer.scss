@@ -16,9 +16,8 @@ footer {
 	color: $color_1;
 }
 .footer__container {
+	@include medidas-elemento(space-between, center);
 	display: flex;
-	justify-content: space-between;
-	align-items: center;
 	border-bottom: 1px solid #fff;
 	padding-bottom: 60px;
 }
