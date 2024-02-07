@@ -1,15 +1,15 @@
 .container {
 	width: 90%;
-	max-width: 1000px;
+	max-width: 800px;
 	margin: 0 auto;
 	overflow: hidden;
 	padding: var(--padding-container);
 }
 .hero {
 	@include medidas-altura(100%, 100vh);
-	@include medidasv (grid, relative);
 	min-height: 150px;
 	max-height: 900px;
+	@include medidasv (grid, relative);
 	grid-template-rows: 100px 1fr;
 	color: $color_1;
 	&::before {
@@ -21,10 +21,8 @@
 		height: 100%;
 		background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url(../img/escritura-astral.jpeg);
 		background-size: cover;
+		z-index: -1;
 	}
-}
-.hero_menu {
-	display: none;
 }
 .nav {
 	--padding-container: 0;
@@ -50,6 +48,21 @@
 	color: $color_1;
 	text-decoration: none;
 }
+
+.nav__menu {
+	margin-left: auto;
+	cursor: pointer;
+	display: none;
+  }
+
+.nav__img {
+	display: block;
+	width: 30px;
+  }
+
+.nav__close {
+	display: var(--show, none);
+  }
 .navbar {
 	--padding-container: 0;
 	height: 100%;

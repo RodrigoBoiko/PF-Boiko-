@@ -19,10 +19,13 @@
 	}
 }
 @media (max-width:800px) {
+	.nav__menu {
+		display: block
+	}
 	.nav__link--menu {
-		@include medidasv(flex, absolute);
+		@include medidasv(flex, fixed);
 		@include medidas-altura(100%, 100%);
-		@include medidas-elemento(space-evenly, end);
+		@include medidas-elemento(space-evenly, center);
 		background-color: $background-color_6;
 		top: 0;
 		left: 0;
@@ -30,13 +33,21 @@
 		z-index: 100;
 		opacity: 0;
 		pointer-events: none;
-		transition: .7s opacity;
+		transition: 0.7s opacity;
 	}
 	.nav__link--show {
 		--show: block;
 		opacity: 1;
 		pointer-events: unset;
 	}
+
+	.nav__close{
+		position: absolute;
+		top: 30px;
+		right: 30px;
+		width: 30px;
+		cursor: pointer;
+	} 
 	.hero_menu {
 		position: absolute;
 		top: 0;
@@ -78,6 +89,17 @@
 		width: 100%;
 		justify-content: space-evenly;
 		margin: 0;
+	}
+	.testimony__body{
+		grid-template-columns: 1fr;
+		grid-template-rows: max-content max-content;
+		gap: 3em;
+		justify-items:center ;
+	}
+	  
+	#zodiac_cards {
+	  display: flex;
+	  flex-wrap: wrap;
 	}
 }
 @media (max-width:600px) {
