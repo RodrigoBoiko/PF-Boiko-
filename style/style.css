@@ -266,7 +266,7 @@
   background: var(--img) center center;
   background-size: cover;
   transition: all 400ms;
-  padding: 50px;
+  padding: auto;
 }
 .box:nth-child(odd) {
   transform: translateY(-8px);
@@ -281,17 +281,17 @@
 }
 
 .container-form {
-  max-width: 900px;
+  max-width: 700px;
   margin: 0 auto;
-  padding: 6rem 2rem;
+  padding: 1rem 1rem;
 }
 
 h1 {
   text-align: center;
   color: #fff;
-  font-size: 3rem;
+  font-size: 2rem;
   text-transform: uppercase;
-  margin-bottom: 6rem;
+  margin-bottom: 2rem;
   text-shadow: 1px 1px 0 var(--bg), 2px 2px 0 var(--accent);
 }
 
