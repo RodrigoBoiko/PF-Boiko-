@@ -2,18 +2,6 @@
 /*colors*/
 /*typography*/
 /*color secundary*/
-/*base*/
-* {
-  --padding-container: 100px 0;
-  --color-title: #001A49;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: "Poppins", sans-serif;
-  height: 100vh;
-}
-
 /*components*/
 .tarot__ {
   display: flex;
@@ -356,10 +344,22 @@ h1 {
   box-shadow: 0px 0px 0px 4px rgba(254, 209, 54, 0.6);
 }
 
+/*base*/
+* {
+  --padding-container: 100px 0;
+  --color-title: #001A49;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+}
+
 /*layout*/
 .container {
   width: 90%;
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
   overflow: hidden;
   padding: var(--padding-container);
