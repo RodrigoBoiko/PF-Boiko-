@@ -12,6 +12,7 @@
 }
 #zodiac_cards {
 	display: grid;
+	margin: 12px;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: 25em 25em 25em 25em;
 	div {

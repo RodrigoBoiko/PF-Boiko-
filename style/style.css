@@ -64,6 +64,7 @@
 
 #zodiac_cards {
   display: grid;
+  margin: 12px;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 25em 25em 25em 25em;
 }
@@ -223,8 +224,8 @@
 .boxbox {
   display: grid;
   position: relative;
-  width: 800px;
-  height: 300px;
+  width: 900px;
+  height: 400px;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   gap: 1em;
   transition: all 400ms;
@@ -473,7 +474,7 @@ header {
 
 .subtitle {
   color: var(--color-title);
-  font-size: 2rem;
+  font-size: 1.7rem;
   margin-bottom: 25px;
 }
 
@@ -625,7 +626,7 @@ footer {
     box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
   }
   .hero__title {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
   }
   .about__main {
     gap: 2em;
@@ -661,6 +662,11 @@ footer {
     gap: 3em;
     justify-items: center;
   }
+  .boxbox {
+    height: 600px;
+    width: 400px;
+    grid-template-columns: repeat(2, 1fr);
+  }
   #zodiac_cards {
     display: flex;
     flex-wrap: wrap;
@@ -674,7 +680,7 @@ footer {
     font-size: 1rem;
   }
   .subtitle {
-    font-size: 1.8rem;
+    font-size: 1rem;
   }
   .footer__title {
     justify-self: start;

@@ -1,6 +1,6 @@
 .boxbox {
 	@include medidasv(grid, relative);
-	@include medidas-altura(800px, 300px);
+	@include medidas-altura(900px, 400px);
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 	gap: 1em;
 	
